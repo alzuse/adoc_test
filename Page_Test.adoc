@@ -1,0 +1,50 @@
+:toc: macro
+:toclevels: 3
+:toc-title: Contents
+:lof-title: List of Figures
+:lot-title: List of Tables
+:include-lists-in-toc:
+
+= A Page Number Test
+:pdf-themesdir: themes
+:pdf-theme: my
+:title-page:
+:doctype: book
+:pdf-theme: my
+:sectnums:
+:sectnumlevels: 4
+:xrefstyle: short
+:table-stripes: odd
+
+[colophon%nonfacing]
+= Copyright
+All rights reserved.
+
+toc::[]
+
+<<<
+== Show Table
+Now show a table.
+
+
+.Tabler
+[#tabler]
+[%header, cols=2]
+|===
+|Header 1 |Header 2
+|Body 1 |Body 2
+|===
+
+<<<
+== Show Table2
+Now show a table.
+
+
+.Tabler
+[#tabler2]
+[%header, cols=2]
+|===
+|Header 1 |Header 2
+|Body 1 |Body 2
+|===
+
